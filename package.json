@@ -1,0 +1,22 @@
+{
+  "name": "payrecover-ai",
+  "version": "2.0.0",
+  "description": "Intelligent Payment Recovery Agent for Razorpay AI Builder Internship 2026 - Track 3",
+  "main": "frontend/js/app.js",
+  "scripts": {
+    "start": "python run.py",
+    "test": "python backend/test_api.py",
+    "train": "python backend/ml_model.py",
+    "data": "python backend/data_generator.py"
+  },
+  "keywords": [
+    "razorpay",
+    "payment-recovery",
+    "ai-agent",
+    "machine-learning",
+    "fastapi",
+    "fintech"
+  ],
+  "author": "Razorpay AI Builder Intern Candidate",
+  "license": "MIT"
+}

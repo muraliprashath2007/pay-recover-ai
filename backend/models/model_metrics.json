@@ -1,0 +1,67 @@
+{
+  "model_name": "Random Forest Classifier (Calibrated)",
+  "train_samples": 469,
+  "test_samples": 118,
+  "accuracy": 0.7373,
+  "precision": 0.72,
+  "recall": 0.8438,
+  "f1_score": 0.777,
+  "roc_auc": 0.7694,
+  "confusion_matrix": {
+    "true_negative": 33,
+    "false_positive": 21,
+    "false_negative": 10,
+    "true_positive": 54
+  },
+  "logistic_regression_benchmark": {
+    "accuracy": 0.7119,
+    "f1_score": 0.7424
+  },
+  "feature_importances": [
+    {
+      "feature": "retry_count",
+      "importance": 0.1746
+    },
+    {
+      "feature": "amount",
+      "importance": 0.0956
+    },
+    {
+      "feature": "log_amount",
+      "importance": 0.0941
+    },
+    {
+      "feature": "time_since_failure_mins",
+      "importance": 0.0911
+    },
+    {
+      "feature": "success_ratio",
+      "importance": 0.0815
+    },
+    {
+      "feature": "Failure: Insufficient funds",
+      "importance": 0.0653
+    },
+    {
+      "feature": "previous_successful_payments",
+      "importance": 0.0607
+    },
+    {
+      "feature": "previous_failed_payments",
+      "importance": 0.0494
+    },
+    {
+      "feature": "Failure: Payment gateway error",
+      "importance": 0.048
+    },
+    {
+      "feature": "Failure: Temporary bank failure",
+      "importance": 0.045
+    }
+  ],
+  "sanity_check": {
+    "passed": true,
+    "status": "Healthy / Realistic Signal",
+    "notes": "PASSED: Accuracy is realistic (between 60% and 95%), reflecting genuine learnable signal with natural Bernoulli variance."
+  }
+}

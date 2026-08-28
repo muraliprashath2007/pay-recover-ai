@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PayRecover AI – Intelligent Payment Recovery Agent | Razorpay AI Builder</title>
+  <meta name="description" content="AI-Powered Payment Recovery Engine that analyzes failed payment transactions, predicts recovery probabilities, and recommends intelligent recovery actions without blind retries." />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              900: '#1e3a8a',
+            },
+            darkBg: '#070B14',
+            darkCard: '#111A2E',
+            darkBorder: '#1E2D4A'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- React 18 & Babel for Clean Component Architecture -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  
+  <!-- Custom Fintech Stylesheet -->
+  <link rel="stylesheet" href="/static/css/styles.css?v=2.1" />
+</head>
+<body class="bg-[#070B14] text-slate-100 antialiased min-h-screen">
+  <div id="root">
+    <!-- Fallback Pre-loader -->
+    <div class="flex items-center justify-center min-h-screen flex-col gap-4">
+      <div class="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+      <div class="text-slate-400 font-medium tracking-wide">Initializing PayRecover AI Engine...</div>
+    </div>
+  </div>
+
+  <!-- Main React Application Script -->
+  <script type="text/babel" src="/static/js/app.js?v=2.1"></script>
+</body>
+</html>
